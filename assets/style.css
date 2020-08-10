@@ -622,6 +622,26 @@ section {
   top: 12px;
 }
 
+/*-------------------------------------------------------------
+Added Section
+-----------------------------------------------------------*/
+.added-section{
+    background: linear-gradient(42deg, #49FF33 0%, #7b27d8 100%);
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.added-section hr{
+    width: 40%;
+    height: 0px;
+    border-top: 2px solid white;
+}
+.added-section p{
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 40px
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
