@@ -1,12 +1,5 @@
-/**
-* Template Name: Techie - v2.1.0
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
-# General
+ General Dark Shade: #5846f9    Light shade: #80FF33 Line 117:rgba(24, 6, 185, 0.8)
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -14,11 +7,11 @@ body {
 }
 
 a {
-  color: #5846f9;
+  color: #80FF33;
 }
 
 a:hover {
-  color: #8577fb;
+  color: #77FF33;
   text-decoration: none;
 }
 
@@ -45,13 +38,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #5846f9;
+  background: #49FF33;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #7b27d8;
+  background: #9484BF;
   color: #fff;
 }
 
@@ -74,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #49FF33;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -117,10 +110,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+    background-color: linear-gradient(45deg, rgba(128, 255, 51,0.9) 0%, rgba(116, 15, 214, 0.9) 100%);
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background:rgb(100, 232, 35);
   padding: 12px 0;
 }
 
@@ -202,6 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
+    font-size: 18px;
 }
 
 .nav-menu .drop-down ul {
@@ -237,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #5846f9;
+  color: #49FF33;
 }
 
 .nav-menu .drop-down > a:after {
@@ -280,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Get Startet Button */
+/* Get Started Button */
 .get-started-btn {
   margin-left: 25px;
   color: #fff;
@@ -358,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #5846f9;
+  color: #49FF33;
   text-decoration: none;
 }
 
@@ -419,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(128, 255, 51,0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -457,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #49FF33;
 }
 
 #hero .animated {
@@ -559,7 +554,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #49FF33;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -593,7 +588,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color: #49FF33;
 }
 
 .about .content p:last-child {
@@ -610,12 +605,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(45deg, #49FF33 0%, #7b27d8 100%);
   position: relative;
 }
 
 .about .content .read-more:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(180deg, #49FF33 0%, #7b27d8 100%);
 }
 
 .about .content .read-more i {
@@ -629,7 +624,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/counts-bg.png") center center no-repeat;
+  background:linear-gradient(45deg, rgba(128, 255, 51,0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/counts-bg.png") center center no-repeat;
   padding: 80px 0 60px 0;
 }
 
@@ -792,7 +787,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5846f9;
+  color: #49FF33;
 }
 
 .features .icon-box p {
@@ -884,7 +879,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #5846f9 !important;
+  background-color: #49FF33 !important;
 }
 
 @media (max-width: 767px) {
@@ -926,7 +921,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5846f9;
+  background: #49FF33;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -942,7 +937,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(88, 70, 249, 0.8);
+  background: #80FF33;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1042,7 +1037,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #5846f9;
+  color: #49FF33;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
@@ -1074,7 +1069,7 @@ section {
 }
 
 .pricing ul i {
-  color: #5846f9;
+  color: #49FF33;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1092,7 +1087,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(42deg, #49FF33 0%, #7b27d8 100%);
   display: inline-block;
   padding: 10px 35px;
   border-radius: 4px;
@@ -1106,12 +1101,12 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(180deg, #49FF33 0%, #7b27d8 100%);
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #5846f9;
+  background: #49FF33;
 }
 
 .pricing .advanced {
@@ -1123,7 +1118,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #5846f9;
+  background: #49FF33;
   color: #fff;
 }
 
@@ -1131,7 +1126,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(42deg, #49FF33 0%, #7b27d8 100%);
 }
 
 .faq .section-title h2, .faq .section-title p {
@@ -1178,7 +1173,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #8577fb;
+  color: #80FF33;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1202,7 +1197,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #5846f9;
+  color: #49FF33;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1232,7 +1227,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #49FF33;
   border-radius: 50%;
   padding: 8px;
 }
@@ -1314,7 +1309,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #5846f9;
+  border-color: #49FF33;
 }
 
 .contact .php-email-form input {
@@ -1326,7 +1321,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #5846f9;
+  background: #49FF33;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1335,7 +1330,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #7b27d8;
+  background: rgb(128, 255, 51);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1434,7 +1429,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #5846f9 !important;
+  background-color: #49FF33 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1487,13 +1482,34 @@ section {
   }
 }
 
+/*-------------------------------------------------------------
+Added Section
+-----------------------------------------------------------*/
+.added-section{
+    background: linear-gradient(42deg, #49FF33 0%, #7b27d8 100%);
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.added-section hr{
+    width: 40%;
+    height: 0px;
+    border-top: 2px solid white;
+}
+.added-section p{
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 40px
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(128, 255, 51,0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -1604,7 +1620,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgba(123, 39, 216, 0.8);
+  background: rgba(128, 255, 51,0.9);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1612,11 +1628,24 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #5846f9;
+  background:#9484BF;
 }
 
 #footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
+  border-top: 1px solid #80FF33;
+}
+@import url(//fonts.googleapis.com/css?family=Oregano|Merienda);
+
+.mwl {
+font-family: 'Merienda', cursive;
+}
+.ks {
+font-family: 'Oregano', cursive;
+font-size:18px;
+}
+.ks a{
+text-transform: none !important;
+    color: #5846f9
 }
 
 #footer .credits {
