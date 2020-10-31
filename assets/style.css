@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
- General Dark Shade: #5846f9    Light shade: #80FF33 Line 117:rgba(24, 6, 185, 0.8)
---------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -44,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #9484BF;
+  background: #9484BF ;
   color: #fff;
 }
 
